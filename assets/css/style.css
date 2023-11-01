@@ -1,0 +1,15 @@
+.header, #aboutHeader{
+    background-image: url(../img/header.avif);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#title-box{
+    max-width: 800px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#aboutHeader{
+    height: 400px;
+}
