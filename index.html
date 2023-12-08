@@ -247,7 +247,23 @@
         </div>
       </div>
 
+<!-- modal for alert -->
+      <div class="modal modal-lg fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"> <b> <i>Admission Open</i></b></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="./assets/img/61.jpg" alt="Image" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
 
+      
+      
 
 
 
@@ -300,6 +316,15 @@
             </div>
         </div>
       </footer>
+      <!-- show modal on body load -->
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Get the modal element
+            var modal = new bootstrap.Modal(document.getElementById('myModal'));
+            // Show the modal
+            modal.show();
+        });
+      </script>
       <script type="text/javascript">
         function googleTranslateElementInit() {
           new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages : 'ur,hi,mr'}, 'google_translate_element');
